@@ -1,12 +1,9 @@
 import { createStore } from 'vuex'
-
+import converter from './modules/Converter'
+import list from './modules/list'
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    converter,
+    list
   }
 })
